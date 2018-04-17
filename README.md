@@ -27,8 +27,8 @@ Ex:
 
 ### Arguments:
 
-On the first argument the actual project directory.
-On the second argument the converter to use, for now only 1 is available which corresponds to the MigrationTool0_12_16To1_0_7
+<p>On the first argument the actual project directory.</p>
+<p>On the second argument the converter to use, for now only 1 is available which corresponds to the MigrationTool0_12_16To1_0_7</p>
 
 ## Contributing
 
