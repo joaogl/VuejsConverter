@@ -27,6 +27,12 @@ namespace MigrationTool.VersionMigrationTool
             new ClassAttributeReplacer(),
             new TransitionReplacer(),
             new RepeatReplacer(),
+            new VElReplacer(),
+            new StyleReplacer(),
+            new AttrReplacer(),
+
+            // KEEP IN LAST!!!
+            new MustacheReplacer(),
         });
 
         public List<string> MissingTags = new List<string>();

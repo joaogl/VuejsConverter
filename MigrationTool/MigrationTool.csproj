@@ -42,7 +42,12 @@
   <ItemGroup>
     <Compile Include="Classes\Html\Attributes\ClassAttribute.cs" />
     <Compile Include="Classes\Html\Attributes\HtmlAttribute.cs" />
+    <Compile Include="Classes\Html\Attributes\HrefAttribute.cs" />
     <Compile Include="Classes\Html\Attributes\VClassOldAttribute.cs" />
+    <Compile Include="Classes\Html\Attributes\StyleAttribute.cs" />
+    <Compile Include="Classes\Html\Attributes\AttrAttribute.cs" />
+    <Compile Include="Classes\Html\Attributes\PlaceholderAttribute.cs" />
+    <Compile Include="Classes\Html\Attributes\VElAttribute.cs" />
     <Compile Include="Classes\Html\Attributes\VOnOldAttribute.cs" />
     <Compile Include="Classes\Html\Enums\HtmlAttributeType.cs" />
     <Compile Include="Classes\Html\Enums\HtmlTagType.cs" />
@@ -55,6 +60,10 @@
     <Compile Include="Processors\OnDirectiveReplacer.cs" />
     <Compile Include="Processors\ProcessorInterface.cs" />
     <Compile Include="Processors\RepeatReplacer.cs" />
+    <Compile Include="Processors\AttrReplacer.cs" />
+    <Compile Include="Processors\StyleReplacer.cs" />
+    <Compile Include="Processors\MustacheReplacer.cs" />
+    <Compile Include="Processors\VElReplacer.cs" />
     <Compile Include="Processors\TransitionReplacer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VersionMigrationTool\MigrationTool.cs" />

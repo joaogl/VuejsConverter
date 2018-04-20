@@ -9,7 +9,8 @@
         VueClass = 1,
         VueFor = 3,
         VueRepeat = 4,
-        
+        VueEl = 5,
+
     }
     
 }

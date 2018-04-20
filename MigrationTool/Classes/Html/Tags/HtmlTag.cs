@@ -199,6 +199,21 @@ namespace MigrationTool.Models
                             case "class":
                                 attr = new ClassAttribute(attrFullRaw, attrName, attrValue);
                                 break;
+                            case "v-el":
+                                attr = new VElAttribute(attrFullRaw, attrName, attrValue);
+                                break;
+                            case "v-style":
+                                attr = new StyleAttribute(attrFullRaw, attrName, attrValue);
+                                break;
+                            case "v-attr":
+                                attr = new AttrAttribute(attrFullRaw, attrName, attrValue);
+                                break;
+                            case "href":
+                                attr = new HrefAttribute(attrFullRaw, attrName, attrValue);
+                                break;
+                            case "placeholder":
+                                attr = new PlaceholderAttribute(attrFullRaw, attrName, attrValue);
+                                break;
                             default:
                                 attr = new HtmlAttribute(attrFullRaw, attrName, attrValue);
                                 break;
